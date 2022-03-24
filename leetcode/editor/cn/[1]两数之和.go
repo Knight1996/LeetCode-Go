@@ -45,6 +45,30 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func twoSum(nums []int, target int) []int {
+	//---------------------------双层遍历--------------------------------
+	/*// Time: O(n2)
+	// Space: O(1)
+	for i := 0; i < len(nums); i++ {
+		for j := i + 1 ; j < len(nums) ; j++ {
+			if nums[i] + nums[j] == target {
+				return []int{i,j}
+			}
+		}
+	}
+	return []int{-1,-1}*/
+	//------------------------------------------------------------------
 
+	//---------------------------hashMap--------------------------------
+	// Time: O(n)
+	// Space: O(n)
+	hashMap := map[int]int{}
+	for i := 0; i < len(nums); i++ {
+		if k, ok := hashMap[target - nums[i]]; ok {
+			return []int{k, i}
+		}
+		hashMap[nums[i]] = i
+	}
+	return []int{-1,-1}
+	//------------------------------------------------------------------
 }
 //leetcode submit region end(Prohibit modification and deletion)
