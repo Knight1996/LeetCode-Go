@@ -32,7 +32,7 @@
 func intersection(nums1 []int, nums2 []int) []int {
 	//---------------------------hashMap---------------------------------
 	/*// Time: O(max(n, m))
-	// Sapce: O(n + m)
+	// Space: O(n + m)
 	hashMap1, hashMap2 := map[int]int{}, map[int]int{}
 	for _, v := range nums1 {
 		hashMap1[v]++
