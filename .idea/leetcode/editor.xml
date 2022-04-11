@@ -267,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1496]判断路径是否相交.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1496]判断路径是否相交.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1496" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1496]判断路径是否相交.go" />
+              <option name="titleSlug" value="path-crossing" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[150]逆波兰表达式求值.go">
           <value>
             <LeetcodeEditor>
@@ -355,6 +366,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1678]设计 Goal 解析器.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1678]设计 Goal 解析器.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1678" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1678]设计 Goal 解析器.go" />
+              <option name="titleSlug" value="goal-parser-interpretation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[167]两数之和 II - 输入有序数组.go">
           <value>
             <LeetcodeEditor>
@@ -399,6 +421,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1720]解码异或后的数组.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1720]解码异或后的数组.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1720" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1720]解码异或后的数组.go" />
+              <option name="titleSlug" value="decode-xored-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[172]阶乘后的零.go">
           <value>
             <LeetcodeEditor>
@@ -421,6 +454,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1741]查找每个员工花费的总时间.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1741]查找每个员工花费的总时间.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1741" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1741]查找每个员工花费的总时间.go" />
+              <option name="titleSlug" value="find-total-time-spent-by-each-employee" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1742]盒子中小球的最大数量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1742]盒子中小球的最大数量.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1742" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1742]盒子中小球的最大数量.go" />
+              <option name="titleSlug" value="maximum-number-of-balls-in-a-box" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1748]唯一元素的和.go">
           <value>
             <LeetcodeEditor>
@@ -429,6 +484,39 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1748]唯一元素的和.go" />
               <option name="titleSlug" value="sum-of-unique-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[17]电话号码的字母组合.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com17" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.go" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1832]判断句子是否为全字母句.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1832]判断句子是否为全字母句.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1832" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1832]判断句子是否为全字母句.go" />
+              <option name="titleSlug" value="check-if-the-sentence-is-pangram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1848]到目标元素的最小距离.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1848]到目标元素的最小距离.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1848" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1848]到目标元素的最小距离.go" />
+              <option name="titleSlug" value="minimum-distance-to-the-target-element" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -462,6 +550,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1957]删除字符使字符串变好.go" />
               <option name="titleSlug" value="delete-characters-to-make-fancy-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[198]打家劫舍.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[198]打家劫舍.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com198" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[198]打家劫舍.go" />
+              <option name="titleSlug" value="house-robber" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -682,6 +781,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[344]反转字符串.go" />
               <option name="titleSlug" value="reverse-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[345]反转字符串中的元音字母.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[345]反转字符串中的元音字母.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com345" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[345]反转字符串中的元音字母.go" />
+              <option name="titleSlug" value="reverse-vowels-of-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -949,6 +1059,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[58]最后一个单词的长度.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[58]最后一个单词的长度.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com58" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[58]最后一个单词的长度.go" />
+              <option name="titleSlug" value="length-of-last-word" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[617]合并二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -979,6 +1100,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[628]三个数的最大乘积.go" />
               <option name="titleSlug" value="maximum-product-of-three-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[62]不同路径.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[62]不同路径.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com62" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[62]不同路径.go" />
+              <option name="titleSlug" value="unique-paths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[63]不同路径 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[63]不同路径 II.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com63" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[63]不同路径 II.go" />
+              <option name="titleSlug" value="unique-paths-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1166,6 +1309,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[7]整数反转.go" />
               <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[804]唯一摩尔斯密码词.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[804]唯一摩尔斯密码词.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com804" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[804]唯一摩尔斯密码词.go" />
+              <option name="titleSlug" value="unique-morse-code-words" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[832]翻转图像.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[832]翻转图像.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com832" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[832]翻转图像.go" />
+              <option name="titleSlug" value="flipping-an-image" />
             </LeetcodeEditor>
           </value>
         </entry>
