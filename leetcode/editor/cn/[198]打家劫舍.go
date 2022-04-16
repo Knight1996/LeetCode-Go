@@ -36,9 +36,55 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 func rob(nums []int) int {
 	//-------------------------------动态规划-----------------------------------
+	/*// Time: O(n)
+	// Space: O(n)
+	n := len(nums)
+	if n == 0 {
+		return 0
+	}
+	if n == 1 {
+		return nums[0]
+	}
+	if n == 2 {
+		return max(nums[0], nums[1])
+	}
+
+	dp := make([]int, n + 1)
+	dp[1], dp[2] = nums[0], max(nums[0], nums[1])
+	for i := 3 ; i <= n ; i++ {
+		dp[i] = max(dp[i - 2] + nums[i - 1], dp[i - 1])
+	}
+	return dp[n]*/
+	//-------------------------------------------------------------------------
+
+	//----------------------------动态规划(空间优化)------------------------------
 	// Time: O()
 	// Space: O()
+	n := len(nums)
+	if n == 0 {
+		return 0
+	}
+	if n == 1 {
+		return nums[0]
+	}
+	if n == 2 {
+		return max(nums[0], nums[1])
+	}
 
+	a, b := nums[0], max(nums[0], nums[1])
+	for i := 3 ; i <= n ; i++ {
+		c := max(a + nums[i - 1], b)
+		a = b
+		b = c
+	}
+	return b
 	//-------------------------------------------------------------------------
+}
+
+func max(a, b int)	int {
+	if a > b {
+		return a
+	}
+	return b
 }
 //leetcode submit region end(Prohibit modification and deletion)
