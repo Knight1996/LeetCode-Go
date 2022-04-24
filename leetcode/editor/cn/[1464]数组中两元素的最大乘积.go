@@ -38,8 +38,26 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func maxProduct(nums []int) int {
-	//-------------------------------------------------------------
+	//-------------------------------排序----------------------------------
+	/*// Time: O(nlogn)
+	// Space: O(logn)
+	sort.Ints(nums)
+	return (nums[len(nums) - 1] - 1) * (nums[len(nums) - 2] - 1)*/
+	//---------------------------------------------------------------------
 
-	//-------------------------------------------------------------
+	//-------------------------------模拟----------------------------------
+	// Time: O(n)
+	// Space: O(1)
+	first, second := 0, 0
+	for i := 0 ; i < len(nums) ; i++ {
+		if nums[i] > first {
+			second = first
+			first = nums[i]
+		}else if nums[i] > second {
+			second = nums[i]
+		}
+	}
+	return (first - 1) * (second - 1)
+	//---------------------------------------------------------------------
 }
 //leetcode submit region end(Prohibit modification and deletion)
