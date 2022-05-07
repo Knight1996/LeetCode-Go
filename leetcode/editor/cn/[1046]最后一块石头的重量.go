@@ -34,9 +34,61 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+import util "container/heap"
+
+type Heap []int
+
+func (h Heap) Len() int { return len(h) }
+
+func (h Heap) Less(i, j int) bool { return h[i] > h[j] }
+
+func (h Heap) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
+
+func (h *Heap) Push(x interface{}) {
+	*h = append(*h, x.(int))
+}
+
+func (h *Heap) Pop() interface{} {
+	old := *h
+	n := len(old)
+	x := old[n - 1]
+	*h = old[0 : n - 1]
+	return x
+}
+
 func lastStoneWeight(stones []int) int {
-	//------------------------------优先队列---------------------------------
+	//--------------------------------堆-------------------------------------
 	// Time: O(nlogn)
+	// Space: O(n)
+	if len(stones) == 1 {
+		return stones[0]
+	}
+
+	h := Heap{}
+	for _, v := range stones {
+		h = append(h, v)
+	}
+
+	util.Init(&h)
+
+	for len(h) >= 2 {
+		first := util.Pop(&h).(int)
+		second := util.Pop(&h).(int)
+		if first != second {
+			tem := first - second
+			util.Push(&h, tem)
+		}
+	}
+	if len(h) == 1 {
+		return util.Pop(&h).(int)
+	}else{
+		return 0
+	}
+	//----------------------------------------------------------------------
+
+	//-------------------------用排序实现堆的效果---------------------------
+	/*// Time: O(nlogn)
 	// Space: O(logn)
 	if len(stones) == 1 {
 		return stones[0]
@@ -56,7 +108,8 @@ func lastStoneWeight(stones []int) int {
 		return stones[0]
 	}else{
 		return 0
-	}
+	}*/
 	//----------------------------------------------------------------------
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

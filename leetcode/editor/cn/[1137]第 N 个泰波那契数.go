@@ -34,6 +34,61 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func tribonacci(n int) int {
+	//-------------------------------递归-------------------------------------
+	/*// Time: O(n)
+	// Space: O(n)
+	if n == 0 {
+		return 0
+	}
+	if n == 1 {
+		return 1
+	}
+	if n == 2 {
+		return 1
+	}
+	return tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3)*/
+	//-----------------------------------------------------------------------
+
+	//------------------------------记忆化搜索---------------------------------
+	/*// Time: O(n)
+	// Space: O(n)
+	hashMap := map[int]int{}
+	var tribonacciDfs func(n int) int
+
+	tribonacciDfs = func(n int) int {
+		if n == 0 {
+			return 0
+		}
+		if n == 1 {
+			return 1
+		}
+		if n == 2 {
+			return 1
+		}
+		p1, p2, p3 := 0, 0, 0
+		if v1, ok := hashMap[n - 1]; ok {
+			p1 = v1
+		}else{
+			p1 = tribonacciDfs(n - 1)
+		}
+
+		if v2, ok := hashMap[n - 2]; ok {
+			p2 = v2
+		}else{
+			p2 = tribonacciDfs(n - 2)
+		}
+		if v3, ok := hashMap[n - 3]; ok {
+			p3 = v3
+		}else{
+			p3 = tribonacciDfs(n - 3)
+		}
+		hashMap[n] = p1 + p2 + p3
+		return p1 + p2 + p3
+	}
+
+	return tribonacciDfs(n)*/
+	//-----------------------------------------------------------------------
+
 	//-------------------------------动态规划---------------------------------
 	/*// Time: O(n)
 	// Space: O(n)
@@ -54,7 +109,7 @@ func tribonacci(n int) int {
 	return dp[n]*/
 	//-----------------------------------------------------------------------
 
-	//-------------------------------动态规划---------------------------------
+	//--------------------------动态规划(空间优化)------------------------------
 	// Time: O(n)
 	// Space: O(1)
 	if n == 0 {

@@ -49,10 +49,30 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func binaryGap(n int) int {
+	//------------------------------位运算----------------------------------
+	// Time: O(n)
+	// Space: O(1)
+	ans := 0
+	pre := -1
+	for i := 0 ; i < 32 ; i++ {
+		if n & 1 == 1 {
+			if pre == -1 {
+				pre = i
+			}else{
+				ans = max(i - pre, ans)
+				pre = i
+			}
+		}
+		n >>= 1
+	}
+	return ans
 	//-----------------------------------------------------------------------
-	// Time: O()
-	// Space: O()
+}
 
-	//-----------------------------------------------------------------------
+func max(a , b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 //leetcode submit region end(Prohibit modification and deletion)
