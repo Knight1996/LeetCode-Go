@@ -894,6 +894,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1822]数组元素积的符号.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1822]数组元素积的符号.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1822" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1822]数组元素积的符号.go" />
+              <option name="titleSlug" value="sign-of-the-product-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1827]最少操作使数组递增.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1827]最少操作使数组递增.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1827" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1827]最少操作使数组递增.go" />
+              <option name="titleSlug" value="minimum-operations-to-make-the-array-increasing" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1832]判断句子是否为全字母句.go">
           <value>
             <LeetcodeEditor>
@@ -902,6 +924,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1832]判断句子是否为全字母句.go" />
               <option name="titleSlug" value="check-if-the-sentence-is-pangram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1844]将所有数字用字符替换.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1844]将所有数字用字符替换.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1844" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1844]将所有数字用字符替换.go" />
+              <option name="titleSlug" value="replace-all-digits-with-characters" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2445,6 +2478,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[LCP 01]猜数字.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[LCP 01]猜数字.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.comLCP 01" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[LCP 01]猜数字.go" />
+              <option name="titleSlug" value="guess-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[LCP 06]拿硬币.go">
           <value>
             <LeetcodeEditor>
@@ -2453,6 +2497,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[LCP 06]拿硬币.go" />
               <option name="titleSlug" value="na-ying-bi" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[LCP 33]蓄水.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[LCP 33]蓄水.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.comLCP 33" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[LCP 33]蓄水.go" />
+              <option name="titleSlug" value="o8SXZn" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2618,6 +2673,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 01.02]判定是否互为字符重排.go" />
               <option name="titleSlug" value="check-permutation-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[面试题 01.09]字符串轮转.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[面试题 01.09]字符串轮转.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com面试题 01.09" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 01.09]字符串轮转.go" />
+              <option name="titleSlug" value="string-rotation-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
