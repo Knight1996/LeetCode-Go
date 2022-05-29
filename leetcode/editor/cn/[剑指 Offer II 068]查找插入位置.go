@@ -1,4 +1,5 @@
-//给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。 
+//给定一个排序的整数数组 nums 和一个整数目标值 target ，请在数组中找到 target ，并返回其下标。如果目标值不存在于数组中，返回它将会被按顺
+//序插入的位置。 
 //
 // 请必须使用时间复杂度为 O(log n) 的算法。 
 //
@@ -25,6 +26,20 @@
 //输出: 4
 // 
 //
+// 示例 4: 
+//
+// 
+//输入: nums = [1,3,5,6], target = 0
+//输出: 0
+// 
+//
+// 示例 5: 
+//
+// 
+//输入: nums = [1], target = 0
+//输出: 0
+// 
+//
 // 
 //
 // 提示: 
@@ -32,18 +47,22 @@
 // 
 // 1 <= nums.length <= 10⁴ 
 // -10⁴ <= nums[i] <= 10⁴ 
-// nums 为 无重复元素 的 升序 排列数组 
+// nums 为无重复元素的升序排列数组 
 // -10⁴ <= target <= 10⁴ 
 // 
-// Related Topics 数组 二分查找 👍 1453 👎 0
+//
+// 
+//
+// 注意：本题与主站 35 题相同： https://leetcode-cn.com/problems/search-insert-position/ 
+// Related Topics 数组 二分查找 👍 20 👎 0
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func searchInsert(nums []int, target int) int {
-	//---------------------------二分查找---------------------------------
+	//----------------------------二分查找----------------------------------
 	// Time: O(logn)
 	// Space: O(1)
-	left, right := -1 , len(nums)
+	left, right := -1, len(nums)
 	for left + 1 != right {
 		mid := left + (right - left) >> 1
 		if nums[mid] >= target {
@@ -53,6 +72,6 @@ func searchInsert(nums []int, target int) int {
 		}
 	}
 	return right
-	//------------------------------------------------------------------
+	//---------------------------------------------------------------------
 }
 //leetcode submit region end(Prohibit modification and deletion)

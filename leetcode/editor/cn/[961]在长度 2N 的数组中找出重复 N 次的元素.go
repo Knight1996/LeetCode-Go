@@ -63,7 +63,7 @@ func repeatedNTimes(nums []int) int {
 	//-------------------------------------------------------------------------
 
 	//--------------------------------hashMap----------------------------------
-	// Time: O(n)
+	/*// Time: O(n)
 	// Space: O(n)
 	hashMap := map[int]int{}
 	for i := 0 ; i < len(nums) ; i++ {
@@ -72,7 +72,7 @@ func repeatedNTimes(nums []int) int {
 			return nums[i]
 		}
 	}
-	return -1
+	return -1*/
 	//-------------------------------------------------------------------------
 
 	//----------------------------数学推导 + 位运算-------------------------------
@@ -83,7 +83,7 @@ func repeatedNTimes(nums []int) int {
 			return nums[i]
 		}
 	}
-	if nums[0] == nums[2] {
+	if nums[0] == nums[2] || nums[0] == nums[3] {
 		return nums[0]
 	}else{
 		return nums[1]
